@@ -1,0 +1,11 @@
+fb.canvas.pay static wallet FB.Canvas.Pay(
+ string product,
+ string action = "user_calls_user",
+ int quantity = null,
+ int? quantityMin = null,
+ int? quantityMax = null,
+ string requestId = null,
+ string pricepointId = null,
+ string Currency = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48,
+ FacebookDelegate<facebookPayResult> callback = messenger.audio.call
+)
